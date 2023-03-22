@@ -1,0 +1,61 @@
+.post-heading {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.blogPost-heading {
+  padding: 25px;
+  font-size: 30px;
+}
+
+.post-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .post-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post-main-content {
+  background-color: rgb(249, 245, 214);
+}
+.post-side-content {
+  background-color: rgb(250, 243, 243);
+}
+
+.blogimg {
+  float: right;
+  text-align: center;
+  padding: 20px;
+}
+
+.blogimg > img {
+  width: 100%;
+}
+
+.blogpost-container {
+  margin: 50px;
+}
+
+.blogpost-container > h3 {
+  margin: 25px 0px;
+}
+
+.profile > h2 {
+  padding-left: 20px;
+}
+
+.profile > p {
+  margin-left: 20px;
+}
+
+.references {
+  padding: 20px;
+}
+.quoteblock {
+  padding: 20px;
+}

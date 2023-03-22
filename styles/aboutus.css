@@ -1,0 +1,20 @@
+.aboutus {
+  height: 100vh;
+}
+
+.aboutus-heading {
+  font-size: 30px;
+}
+
+.details {
+  margin-left: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  overflow: auto;
+}
+
+.aboutus-bio {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 20px;
+}

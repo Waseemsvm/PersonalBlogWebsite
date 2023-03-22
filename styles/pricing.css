@@ -1,0 +1,35 @@
+.pricing-header {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+.pricing-price {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.cards.pricing .card {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-between;
+}
+
+.pricing .pricing-features {
+  list-style-type: circle;
+  display: block;
+  /* margin-top: 25px; */
+  margin-left: 50px;
+}
+
+.pricing .pricing-features > li {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.pricing .select-plan-btn {
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bolder;
+}
