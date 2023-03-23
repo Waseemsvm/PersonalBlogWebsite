@@ -78,6 +78,28 @@
       <footer class="homepage-footer">
         &copy;&nbsp;&nbsp;A Personal Blog Post by Waseem Akram P
       </footer>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <label for="subEmail">Email : </label>&nbsp;&nbsp;
+          <div class="emailBox">
+            <input
+              id="subEmail"
+              placeholder="example@gmail.com"
+              class="subEmail"
+              type="email"
+            />
+            <button class="subBtn" onclick="subscribeClose()">subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="subscribe" onclick="subscribe()">
+        <span class="bellIcon"></span>
+      </div>
     </div>
 
     <script src="../scripts/app.js"></script>
